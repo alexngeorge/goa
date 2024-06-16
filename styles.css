@@ -1,0 +1,67 @@
+body{
+    text-align: center;
+    margin-top: 25px;
+    font-family: 'MedievalSharp', cursive;
+    background: linear-gradient(rgb(0, 88, 0), rgb(1, 59, 1)) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-backgroun-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h1{
+    font-weight: bold;
+    color: yellowgreen;
+    text-shadow: 0px 0px 30px yellowgreen;
+}
+.medievalsharp-regular {
+    font-family: "MedievalSharp", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+#divtxt{
+    color: white; 
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    text-shadow: 0px 0px 10px black;
+}
+#jump-btn{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    color: white;
+}
+.card{
+    border-width: 0;
+    text-align: center;
+    width: min-content;
+    background-color: transparent;
+}
+.collapse{
+    border-width: 0;
+    text-align: center;
+    width: min-content;
+    background-color: transparent;
+}
+a{
+    color: yellowgreen;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+p{
+    color: yellowgreen;
+}
+img{
+    border-radius: 20px;
+    padding: none;
+    border: none;
+    margin: none;
+}
+#flexy{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+}
