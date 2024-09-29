@@ -1,90 +1,169 @@
+@font-face{
+    font-family: 'OldLondon-Regular';
+    src: url('./BE2025/OldLondon.ttf');
+}
+
 body{
-    text-align: center;
-    margin-top: 25px;
-    font-family: 'MedievalSharp', cursive;
-    background: linear-gradient(rgb(0, 88, 0), rgb(1, 59, 1)) no-repeat center center fixed;
+    background: linear-gradient(rgb(88, 0, 0), rgb(0, 0, 0)) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-backgroun-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover;-color: blue;
+    color: white;
 }
-h1{
-    font-weight: bold;
-    color: yellowgreen;
-    text-shadow: 0px 0px 30px yellowgreen;
+
+.special{
+    float: left;
+    padding-left: 2%;
+    padding-top: 10px;
+    max-width: 8%;
+    -webkit-filter: drop-shadow(5px 5px 5px #723333);
+    filter: drop-shadow(5px 5px 5px #723333);
+    position: fixed;
 }
-.medievalsharp-regular {
-    font-family: "MedievalSharp", cursive;
+
+.main{
+    margin-left: 10%;
+    margin-right: 10%;
+    bottom: none;
+    top: none;
+    text-align: center;
+    background-color: transparent;
+    /* border: 1px solid white; */
+    word-wrap: break-word;
+}
+
+.btn-group .button {
+    background-color: transparent;
+    border-radius: 10px;
+    border: 0px solid transparent;
+    color: white;
+    margin: 10px;
+    padding: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    transition-duration: 0.2s;
+}
+
+.btn-group .button:hover{
+    text-decoration: underline;
+}
+
+#flyer{
+    max-width: 80%;
+    border-radius: 10%;
+    box-shadow: 5px 5px 10px#723333;
+}
+
+.bg{
+    max-width: 80%;
+    -webkit-filter: drop-shadow(5px 5px 5px #723333);
+    filter: drop-shadow(5px 5px 5px #723333);
+}
+
+.maps{
+    max-width: 80%;
+    border-radius: 10%;
+    box-shadow: 5px 5px 10px#723333;
+}
+
+.form{
+    text-decoration: underline;
+    color: white;
+    transition-duration: 0.5s;
+    font-size: xx-large;
+}
+
+.form:hover{
+    color: rgb(144, 0, 0);
+}
+
+.eb-garamond-fonta{
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
-#divtxt{
-    color: white;
-    bottom: 0;
-    text-shadow: 0px 0px 10px black;
+
+p, a, h1, h2{
+    font-family: "EB Garamond", serif;
 }
-#jump-btn{
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    color: white;
-}
-.card{
-    border-width: 0;
-    text-align: center;
-    width: min-content;
-    background-color: transparent;
-}
-.collapse{
-    border-width: 0;
-    text-align: center;
-    width: min-content;
-    background-color: transparent;
-}
-a{
-    color: yellowgreen;
-    text-decoration: underline;
-    font-weight: bolder;
-}
+
 p{
-    color: yellowgreen;
+    font-size: x-large;
 }
-img{
-    border-radius: 20px;
-    padding: none;
-    border: none;
-    margin: none;
+
+.credit{
+    text-align: center;
+    font-family: 'OldLondon-Regular', 'EB Garamond', serif;
+    font-size: xx-large;
+    color: rgb(157, 0, 0);
+    text-shadow: 5px 5px 10px rgb(175, 9, 9)
 }
-#flexy{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    align-content: space-around;
+
+.weave{
+    max-width: 20%;
+    -webkit-filter: drop-shadow(5px 5px 5px #723333);
+    filter: drop-shadow(5px 5px 5px #723333);
+    margin: 5%;
 }
-#evinfo{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-left: 12.5%;
-    padding-right: 12.5%;
+
+.test{
+    float: right;
+    padding-right: 2%;
+    padding-top: 10px;
+    top: 0;
+    max-width: 8%;
+    /* Link styling */
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.2s;
 }
-#evinfo2{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-left: 12.5%;
-    padding-right: 12.5%;
+
+.test:hover{
+    text-decoration: underline;
+}
+
+.jumpbtn{
+    text-decoration: underline;
+    color: white;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    font-size: x-large;
+}
+
+.jumpbtn:hover{
+    color: rgb(144, 0, 0)
+}
+
+table, td, th{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "EB Garamond", serif;
+    padding: 10px;
     font-size: 20px;
 }
-#sig{
-    font-family: "Playwrite AU NSW", cursive;
+
+table{
+    border: 2px solid white;
 }
-.playwrite-au-nsw{
-    font-family: "Playwrite AU NSW", cursive;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
+
+td, th{
+    border-left: 2px solid white;
+    border-right: 2px solid white;
 }
+
+th{
+    border-bottom: 2px solid white;
+}
+
 iframe{
-    border-radius: 20px;
-}
-#logo{
-    background-color: rgba(255, 255, 255, 0);
+    max-width: 80%;
+    border-radius: 5%;
+    box-shadow: 5px 5px 10px #723333;
 }
