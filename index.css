@@ -3,6 +3,11 @@
     src: url('./BE2025/OldLondon.ttf');
 }
 
+@font-face{
+    font-family: 'Uncial-Antiqua';
+    src: url('./BE2025/UncialAntiqua-Regular.ttf')
+}
+
 body{
     background: linear-gradient(rgb(88, 0, 0), rgb(0, 0, 0)) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -166,4 +171,47 @@ iframe{
     max-width: 80%;
     border-radius: 5%;
     box-shadow: 5px 5px 10px #723333;
+}
+
+#featured{
+    font-family: 'Uncial-Antiqua', serif;
+    font-size: 2rem;
+    background-image: linear-gradient(to bottom right, yellow, rgb(179, 96, 1));
+    background-clip: text;
+    background-size: cover;
+    color: transparent;
+    position: relative;
+}
+
+#featured::after{
+    content: '';
+    position: absolute;
+    height: 0.25rem;
+    width: 50%;
+    background-image: linear-gradient(to right, yellow, rgb(179, 96, 1));
+    top: 100%;
+    left: 50%;
+    translate: -50% -50%;
+    border-radius: 0.125rem;
+}
+
+.feat-img{
+    width: 60%;
+    height: auto;
+    border-radius: 2rem;
+    box-shadow: 5px 5px 10px black;
+}
+
+.feat-a{
+    color: yellow;
+    font-size: 1.25rem;
+}
+
+h1{
+    font-family: 'Uncial-Antiqua', serif;
+    font-size: 2rem;
+    background-image: linear-gradient(to bottom right, yellow, rgb(179, 96, 1));
+    background-clip: text;
+    background-size: cover;
+    color: transparent;
 }
