@@ -215,3 +215,9 @@ h1{
     background-size: cover;
     color: transparent;
 }
+
+#stanfords_menu{
+    width: 60%;
+    height: auto;
+    border-radius: 20px;
+}
